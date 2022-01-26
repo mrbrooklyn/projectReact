@@ -85,12 +85,14 @@ const App = () => {
     <NavigationContainer>
       <Drawer.Navigator>
       <Drawer.Screen
-          name = "First Page Options"
+          name = "FirstPage"
           component = {firstScreenStack}
+          options={{ title: 'First Page Options' }}
       />
       <Drawer.Screen
-          name = "Second Page Options"
+          name = "SecondPage"
           component = {secondScreenStack}
+          options={{ title: 'Third Page Options' }}
       />
       </Drawer.Navigator>
     </NavigationContainer>
