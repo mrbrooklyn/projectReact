@@ -20,7 +20,7 @@ const SettingScreen = ({navigation}) => {
                         <View style={{margin: 5}}>
                             <Button
                                 title="Open News Screen"
-                                onPress={() => alert('Wait for next Week')}
+                                onPress={() => alert('waiting for the next week')}
                             />
                         </View>
                         <View style={{margin: 5}}>
