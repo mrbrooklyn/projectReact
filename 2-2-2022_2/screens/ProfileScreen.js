@@ -9,7 +9,7 @@ const ProfileScreen = ({navigation}) => {
         <SafeAreaView style = {{flex: 1}}>
             <View style = {{flex: 1, padding: 15}}>
                 <View style = {styles.container}>  
-                    <Text>You are on Profile Screen</Text>
+                    <Text style={styles.textTopStyle}>You are on Profile Screen</Text>
                 </View>
                 <Text style={styles.textBottomStyle}>www.tni.ac.th</Text>
             </View>
