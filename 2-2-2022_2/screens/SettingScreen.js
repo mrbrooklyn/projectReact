@@ -9,7 +9,7 @@ const SettingScreen = ({navigation}) => {
         <SafeAreaView style = {{flex: 1}}>
             <View style = {{flex: 1, padding: 15}}>
                 <View style = {styles.container}>  
-                    <Text style={styles.textTopStyle}>Setting Screen</Text>
+                    <Text>Setting Screen</Text>
                     <View style={{width: '80%'}}>
                         <View style={{margin: 5}}>
                             <Button
