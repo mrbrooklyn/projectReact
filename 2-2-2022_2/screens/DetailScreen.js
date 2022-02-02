@@ -3,9 +3,6 @@ import React from 'react';
 import { styles } from '../components/styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import Ionicons from 'react-native-vector-icons/Ionicons';
-
-
 const DetailScreen = ({navigation}) => {
     
     return (
