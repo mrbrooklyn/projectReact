@@ -43,7 +43,7 @@ const HomeScreen = ({navigation}) => {
       <Button
         title="Go to About"
         onPress={() =>
-          navigation.navigate('AboutScreen', {email: 'ch.damrongdech_st@tni.ac.th'})
+          navigation.navigate('About', {email: 'ch.damrongdech_st@tni.ac.th'})
         }  
       />
     </View>

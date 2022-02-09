@@ -10,7 +10,7 @@ const AboutScreen = ({navigation, route}) => {
             <Text>{email}</Text>
             <Button 
                 title='Go to About'
-                onPress={()=>navigation.push('HomeScreen')}
+                onPress={()=>navigation.push('Home')}
             />
         </View>
     )
