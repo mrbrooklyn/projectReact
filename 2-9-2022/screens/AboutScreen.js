@@ -9,7 +9,7 @@ const AboutScreen = ({navigation, route}) => {
             <Text>เกี่ยวกับเรา</Text>
             <Text>{email}</Text>
             <Button 
-                title='Go to About'
+                title='Go to Home'
                 onPress={()=>navigation.push('Home')}
             />
         </View>
