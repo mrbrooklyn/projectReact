@@ -25,7 +25,7 @@ function HomeStack() {
       <Stack.Navigator
           screenOptions={{
               headerStyle: {
-                  backgroundColor: "#3455eb",
+                  backgroundColor: "#5a80d1",
               },
               headerTintColor: "#fff",
               headerTitleStyle: {
