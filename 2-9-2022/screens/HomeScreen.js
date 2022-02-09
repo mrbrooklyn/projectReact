@@ -38,7 +38,7 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Ionicons name="home-outline" size={30} color="#f4511e" />
+      <Ionicons name="home-outline" size={30} color="#5a80d1" />
       <Text>หน้าหลัก</Text>
       <Button
         title="Go to About"
