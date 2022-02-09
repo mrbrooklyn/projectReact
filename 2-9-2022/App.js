@@ -50,7 +50,7 @@ function ProductStack() {
       <Stack.Navigator
           screenOptions={{
               headerStyle: {
-                  backgroundColor: "#3B9C9C",
+                  backgroundColor: "#7188f5",
               },
               headerTintColor: "#fff",
               headerTitleStyle: {
