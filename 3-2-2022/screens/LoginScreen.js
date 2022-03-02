@@ -1,4 +1,3 @@
-//HomeScreen.js
 import React, { useState,useEffect } from 'react';
 import {StyleSheet, View, ActivityIndicator, FlatList} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -81,7 +80,7 @@ const LoginScreen = () => {
                 //ไว้เปิด / ปิด ปุ่มกาทำงาน
                 disabled = {isSubmitting}
               >
-                <Text style={{color: 'white', fontSize: 15, fontWeight: 'bold'}}>Register</Text>
+                <Text style={{color: 'white', fontSize: 15, fontWeight: 'bold'}}>Login</Text>
               </Button>
             </Form>
           )}
