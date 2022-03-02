@@ -6,7 +6,15 @@ import { Formik } from 'formik';
 
 import axios from 'axios';
 
+import * as Yup from 'yup';
+
 import { Container, Header,Icon, Content,Form, Item, Input, Label, Button,Text } from 'native-base';
+
+const validateSchema = Yup.object().shape({
+    name: Yup.string().required('กรุณากรอกชื่อใหม่'),
+    email: Yup.string().email('รูปแบบอีเมลไม่ถูกต้อง').required('กรุณากรอกอีเมลใหม่'),
+    password: Yup.string().min(3,'รหัสผ่านต้องมี 3 ตัวอักษรขึ้นไป').required('กรุณากรอกรหัสผ่านใหม่'),
+  });
 
 const IoniconsHeaderButton = props => (
   <HeaderButton IconComponent={Ionicons} iconSize={23} {...props} />
@@ -23,7 +31,7 @@ const LoginScreen = () => {
             email: '',
             password: '',
           }}
-          //validationSchema={validateSchema}
+          validationSchema={validateSchema}
           //เมื่อคลิกปุ่ม Register ให้ทำงานส่วน
           onSubmit={async(values,{setSubmitting}) => {
             // same shape as initial values
